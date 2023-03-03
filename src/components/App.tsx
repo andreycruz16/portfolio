@@ -1,9 +1,9 @@
-import '@/styles/App.css';
+import '@/styles/App.scss';
 
 function App() {
     return (
         <div className="App">
-            <h1>Hello World</h1>
+            <div className="hello-world">Hello World</div>
         </div>
     );
 }
