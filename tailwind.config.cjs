@@ -6,6 +6,7 @@ module.exports = {
             fontFamily: {
                 tiltwarp: 'Tilt Warp',
                 poppins: 'Poppins',
+                opensans: 'Open Sans',
             },
         },
     },
