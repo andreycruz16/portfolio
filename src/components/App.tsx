@@ -8,14 +8,14 @@ function App() {
     return (
         <div className={darkMode ? 'dark' : ''}>
             <div className="min-h-screen min-w-min bg-slate-50 dark:bg-gray-800 transition duration-300">
-                <main className="max-w-max mx-auto bg-slate-50 px-10 md:px-20 lg:px-40 xl:px-90 dark:bg-gray-800 transition duration-300">
-                    <section className="select-none">
+                <main className="max-w-max mx-auto bg-slate-50 px-10 md:px-20 lg:px-40 xl:px-90 dark:bg-gray-800 transition duration-300 select-none">
+                    <section>
                         <nav className="py-10 mb-12 flex justify-between">
                             <h1 className="font-tiltwarp text-2xl md:text-3xl font-bold decoration-traensparent dark:text-gray-100">
                                 MARKANDREY
                             </h1>
                             <ul className="flex items-center">
-                                <li className="">
+                                <li>
                                     <BsFillMoonStarsFill
                                         className="cursor-pointer text-2xl dark:text-yellow-400 hover:scale-125 ease-in-out duration-300"
                                         onClick={() => {
@@ -36,7 +36,7 @@ function App() {
                     </section>
                     <section>
                         <div className="text-center">
-                            <h2 className="text-5xl py-2 text-teal-600 dark:text-teal-400 font-bold select-none">
+                            <h2 className="text-5xl py-2 text-teal-600 dark:text-teal-400 font-bold">
                                 Mark&nbsp;Andrey
                             </h2>
                             <h3 className="text-2xl py-3 font-normal dark:text-gray-100">
