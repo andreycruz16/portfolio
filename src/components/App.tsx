@@ -7,11 +7,11 @@ function App() {
     const [darkMode, setdarkMode] = useState(false);
     return (
         <div className={darkMode ? 'dark' : ''}>
-            <div className="min-h-screen bg-slate-50 dark:bg-gray-800 transition duration-300">
+            <div className="min-h-screen min-w-min bg-slate-50 dark:bg-gray-800 transition duration-300">
                 <main className="max-w-max mx-auto bg-slate-50 px-10 md:px-20 lg:px-40 xl:px-90 dark:bg-gray-800 transition duration-300">
                     <section>
                         <nav className="py-10 mb-12 flex justify-between">
-                            <h1 className="font-tiltwarp text-2xl md:text-3xl font-bold cursor-pointer hover:scale-125 ease-in-out duration-300 dark:text-gray-100">
+                            <h1 className="font-tiltwarp text-2xl md:text-3xl font-bold dark:text-gray-100">
                                 MARKANDREY
                             </h1>
                             <ul className="flex items-center">
@@ -33,9 +33,11 @@ function App() {
                                 </li>
                             </ul>
                         </nav>
-                        <div className="text-center p-10">
+                    </section>
+                    <section>
+                        <div className="text-center">
                             <h2 className="text-5xl py-2 text-teal-600 font-bold dark:text-gray-100">
-                                Mark Andrey
+                                Mark&nbsp;Andrey
                             </h2>
                             <h3 className="text-2xl py-3 font-normal dark:text-gray-100">
                                 Web Developer.
