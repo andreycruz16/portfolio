@@ -9,23 +9,23 @@ function App() {
         <div className={darkMode ? 'dark' : ''}>
             <div className="min-h-screen min-w-min bg-slate-50 dark:bg-gray-800 transition duration-300">
                 <main className="max-w-max mx-auto bg-slate-50 px-10 md:px-20 lg:px-40 xl:px-90 dark:bg-gray-800 transition duration-300">
-                    <section>
+                    <section className="select-none">
                         <nav className="py-10 mb-12 flex justify-between">
-                            <h1 className="font-tiltwarp text-2xl md:text-3xl font-bold dark:text-gray-100">
+                            <h1 className="font-tiltwarp text-2xl md:text-3xl font-bold decoration-traensparent dark:text-gray-100">
                                 MARKANDREY
                             </h1>
                             <ul className="flex items-center">
                                 <li className="">
                                     <BsFillMoonStarsFill
-                                        className="cursor-pointer text-3xl dark:text-yellow-400 hover:scale-125 ease-in-out duration-300"
+                                        className="cursor-pointer text-2xl dark:text-yellow-400 hover:scale-125 ease-in-out duration-300"
                                         onClick={() => {
                                             setdarkMode((darkMode) => !darkMode);
                                         }}
                                     />
                                 </li>
-                                <li className="hover:scale-110 ease-in-out duration-300">
+                                <li className="hover:scale-110 ease-in-out duration-300 hidden md:block ml-5">
                                     <a
-                                        className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
+                                        className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
                                         href="#"
                                     >
                                         Resume
@@ -36,7 +36,7 @@ function App() {
                     </section>
                     <section>
                         <div className="text-center">
-                            <h2 className="text-5xl py-2 text-teal-600 font-bold dark:text-gray-100">
+                            <h2 className="text-5xl py-2 text-teal-600 dark:text-teal-400 font-bold select-none">
                                 Mark&nbsp;Andrey
                             </h2>
                             <h3 className="text-2xl py-3 font-normal dark:text-gray-100">
@@ -52,17 +52,35 @@ function App() {
                         </div>
                         <div className="flex justify-center gap-16 text-5xl py-3 text-gray-600 dark:text-gray-100">
                             <div className="hover:scale-125 ease-in-out duration-300 cursor-pointer">
-                                <AiFillMail />
+                                <a href="#">
+                                    <AiFillMail />
+                                </a>
                             </div>
                             <div className="hover:scale-125 ease-in-out duration-300 cursor-pointer">
-                                <AiFillLinkedin />
+                                <a href="#">
+                                    <AiFillLinkedin />
+                                </a>
                             </div>
                             <div className="hover:scale-125 ease-in-out duration-300 cursor-pointer">
-                                <AiFillGithub />
+                                <a href="#">
+                                    <AiFillGithub />
+                                </a>
                             </div>
                         </div>
-                        <div className="relative mx-auto rounded-full w-64 h-64 m-20 overflow-hidden md:w-80 md:h-80 hover:scale-105 ease-in-out duration-300">
-                            <img src={profilepicture} alt="Profile Picture" />
+                        <div className="py-7">
+                            <div className="flex mx-auto rounded-full w-52 h-52 md:w-80 md:h-80 hover:scale-105 ease-in-out duration-300 overflow-hidden ">
+                                <img src={profilepicture} alt="Profile Picture" />
+                            </div>
+                        </div>
+                        <div className="p-5 flex justify-center md:hidden">
+                            <div className="hover:scale-110 ease-in-out duration-300">
+                                <a
+                                    className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
+                                    href="#"
+                                >
+                                    Download my resume
+                                </a>
+                            </div>
                         </div>
                     </section>
                     <section>
@@ -94,9 +112,10 @@ function App() {
                                 Lorem ipsum dolor sit amet, consectetur
                             </p>
                         </div>
-                        {/* CARDS */}
+                    </section>
+                    <section>
                         <div className="xl:flex gap-10 lg:justify-center">
-                            <div className="text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
                                 <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
                                     Beautiful Designs
                                 </h3>
@@ -112,7 +131,7 @@ function App() {
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
-                            <div className="text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
                                 <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
                                     Beautiful Designs
                                 </h3>
@@ -128,7 +147,7 @@ function App() {
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
-                            <div className="text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
                                 <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
                                     Beautiful Designs
                                 </h3>
