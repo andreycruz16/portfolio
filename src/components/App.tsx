@@ -115,7 +115,7 @@ function App() {
                     </section>
                     <section>
                         <div className="xl:flex gap-10 lg:justify-center">
-                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-[#32445f]">
                                 <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
                                     Beautiful Designs
                                 </h3>
@@ -131,7 +131,7 @@ function App() {
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
-                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-[#32445f]">
                                 <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
                                     Beautiful Designs
                                 </h3>
@@ -147,7 +147,7 @@ function App() {
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                                 <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
-                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                            <div className="xl:max-w-md text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-[#32445f]">
                                 <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
                                     Beautiful Designs
                                 </h3>
