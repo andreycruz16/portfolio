@@ -174,7 +174,7 @@ function App() {
                                     rel="noreferrer"
                                 >
                                     <img
-                                        className="h-12 w-56"
+                                        className="h-14 w-56"
                                         src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
                                         alt="Buy Me A Coffee"
                                     />
