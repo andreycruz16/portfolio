@@ -37,15 +37,18 @@ function App() {
                             <h2 className="text-5xl py-2 text-teal-600 font-bold dark:text-gray-100">
                                 Mark Andrey
                             </h2>
-                            <h3 className="text-2xl py-2 font-medium dark:text-gray-100">
-                                Web Developer. ReactJS, JavaScript
+                            <h3 className="text-2xl py-3 font-normal dark:text-gray-100">
+                                Web Developer.
+                            </h3>
+                            <h3 className="text-xl py-1 font-normal dark:text-gray-100">
+                                ReactJS, JavaScript, TypeScript
                             </h3>
                             <p className="text-base py-5 leading-8 text-gray-800 font-medium dark:text-gray-100">
                                 I&apos;m a Software Developer with over 4+ years of experience in
                                 web development. Knowledgeable of JavaScript and TypeScript.
                             </p>
                         </div>
-                        <div className="flex justify-center gap-16 text-7xl py-3 text-gray-600 dark:text-gray-100">
+                        <div className="flex justify-center gap-16 text-5xl py-3 text-gray-600 dark:text-gray-100">
                             <div className="hover:scale-125 ease-in-out duration-300 cursor-pointer">
                                 <AiFillMail />
                             </div>
@@ -63,15 +66,17 @@ function App() {
                     <section>
                         <div className="lg:mx-4">
                             <h3 className="text-3xl py-1 font-medium dark:text-gray-50">
-                                Tech Stack
+                                About me
                             </h3>
                             <p className="text-base py-2 leading-8 text-gray-800 dark:text-gray-100">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt{' '}
-                                <span className="text-teal-500 font-semibold">labore</span> ut
-                                labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
+                                <span className="text-teal-500 font-semibold dark:text-teal-400">
+                                    labore
+                                </span>{' '}
+                                ut labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
                                 Lorem ipsum dolor sit amet, consectetur{' '}
-                                <span className="text-teal-500 font-semibold">
+                                <span className="text-teal-500 font-semibold dark:text-teal-400">
                                     labore et dolore
                                 </span>{' '}
                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -80,59 +85,62 @@ function App() {
                             <p className="text-base py-2 leading-8 text-gray-800 dark:text-gray-100">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt{' '}
-                                <span className="text-teal-500 font-semibold">labore</span> ut
-                                labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
+                                <span className="text-teal-500 font-semibold dark:text-teal-400">
+                                    labore
+                                </span>{' '}
+                                ut labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
                                 Lorem ipsum dolor sit amet, consectetur
                             </p>
                         </div>
+                        {/* CARDS */}
                         <div className="xl:flex gap-10 lg:justify-center">
-                            <div className="text-center shadow-lg p-16 rounded-xl my-14 dark:bg-gray-300">
-                                <h3 className="text-xl font-medium pt-8 pb-2">Beautiful Designs</h3>
-                                <p className="py-2">
+                            <div className="text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                                <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
+                                    Beautiful Designs
+                                </h3>
+                                <p className="dark:text-gray-50 py-2">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                                     ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <h4 className="py-4 text-teal-600 font-medium">
+                                <h4 className="text-xl py-4 text-teal-600 font-medium dark:text-teal-400">
                                     Design tools I use
                                 </h4>
-                                <p className="text-gray-800 py-1">Photoshop</p>
-                                <p className="text-gray-800 py-1">Illustrator</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Canva</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Photoshop</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Illustrator</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
-                            <div className="text-center shadow-lg p-16 rounded-xl my-14 dark:bg-gray-300">
-                                <h3 className="text-xl font-medium pt-8 pb-2">Beautiful Designs</h3>
-                                <p className="py-2">
+                            <div className="text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                                <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
+                                    Beautiful Designs
+                                </h3>
+                                <p className="dark:text-gray-50 py-2">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                                     ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <h4 className="py-4 text-teal-600 font-medium">
+                                <h4 className="text-xl py-4 text-teal-600 font-medium dark:text-teal-400">
                                     Design tools I use
                                 </h4>
-                                <p className="text-gray-800 py-1">Photoshop</p>
-                                <p className="text-gray-800 py-1">Illustrator</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Canva</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Photoshop</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Illustrator</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
-                            <div className="text-center shadow-lg p-16 rounded-xl my-14 dark:bg-gray-300">
-                                <h3 className="text-xl font-medium pt-8 pb-2">Beautiful Designs</h3>
-                                <p className="py-2">
+                            <div className="text-center shadow-lg dark:shadow-gray-900 p-16 rounded-xl my-14 dark:bg-zinc-800">
+                                <h3 className="dark:text-gray-50 text-3xl font-medium pt-8 pb-2">
+                                    Beautiful Designs
+                                </h3>
+                                <p className="dark:text-gray-50 py-2">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
                                     ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <h4 className="py-4 text-teal-600 font-medium">
+                                <h4 className="text-xl py-4 text-teal-600 font-medium dark:text-teal-400">
                                     Design tools I use
                                 </h4>
-                                <p className="text-gray-800 py-1">Photoshop</p>
-                                <p className="text-gray-800 py-1">Illustrator</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Figma</p>
-                                <p className="text-gray-800 py-1">Canva</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Photoshop</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Illustrator</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
+                                <p className="dark:text-gray-50 text-gray-800 py-1">Figma</p>
                             </div>
                         </div>
                     </section>
@@ -144,10 +152,12 @@ function App() {
                             <p className="text-base py-2 leading-8 text-gray-800 dark:text-gray-50">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt{' '}
-                                <span className="text-teal-500 font-semibold">labore</span> ut
-                                labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
+                                <span className="text-teal-500 font-semibold dark:text-teal-400">
+                                    labore
+                                </span>{' '}
+                                ut labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
                                 Lorem ipsum dolor sit amet, consectetur{' '}
-                                <span className="text-teal-500 font-semibold">
+                                <span className="text-teal-500 font-semibold dark:text-teal-400">
                                     labore et dolore
                                 </span>{' '}
                                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -156,16 +166,19 @@ function App() {
                             <p className="text-base py-2 leading-8 text-gray-800 dark:text-gray-50">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                                 eiusmod tempor incididunt{' '}
-                                <span className="text-teal-500 font-semibold">labore</span> ut
-                                labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
+                                <span className="text-teal-500 font-semibold dark:text-teal-400">
+                                    labore
+                                </span>{' '}
+                                ut labore et dolore magna aliqua. Nisl nunc mi ipsum faucibus vitae.
                                 Lorem ipsum dolor sit amet, consectetur
                             </p>
                         </div>
                     </section>
                     <footer>
                         <div className="py-5">
-                            <div className="text-center text-base py-1 font-medium dark:text-gray-50">
-                                Created by Mark Andrey
+                            <div className="text-center text-base py-1 font-medium dark:text-gray-50 ">
+                                Created by{' '}
+                                <span className="font-bold dark:text-teal-400">Mark Andrey</span>
                             </div>
                             <div className="flex justify-center text-base py-1 mt-4 dark:text-gray-50">
                                 <a
@@ -174,7 +187,7 @@ function App() {
                                     rel="noreferrer"
                                 >
                                     <img
-                                        className="h-14 w-56"
+                                        className="h-14 w-56 rounded-full shadow-md shadow-gray-500"
                                         src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
                                         alt="Buy Me A Coffee"
                                     />
