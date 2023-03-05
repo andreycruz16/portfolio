@@ -27,7 +27,7 @@ function App() {
                 <main className="max-w-max mx-auto bg-slate-50 px-10 md:px-20 lg:px-40 xl:px-90 dark:bg-gray-800 transition duration-300 select-none">
                     <section>
                         <nav className="py-10 mb-12 flex justify-between">
-                            <h1 className="font-tiltwarp text-2xl md:text-3xl font-bold decoration-traensparent dark:text-gray-100">
+                            <h1 className="text-2xl md:text-3xl font-bold decoration-transparent ease-in-out duration-300 dark:text-gray-100">
                                 MARKANDREY
                             </h1>
                             <ul className="flex items-center">
@@ -68,7 +68,7 @@ function App() {
                                 web development. Knowledgeable of JavaScript and TypeScript.
                             </p>
                         </div>
-                        <div className="flex justify-center gap-16 text-5xl py-3 text-gray-600 dark:text-gray-100">
+                        <div className="flex justify-center gap-16 text-6xl py-3 text-gray-600 dark:text-gray-100">
                             <div className="hover:scale-125 ease-in-out duration-300 cursor-pointer">
                                 <a href="#">
                                     <AiFillMail />
@@ -85,12 +85,12 @@ function App() {
                                 </a>
                             </div>
                         </div>
-                        <div className="py-7">
+                        <div className="py-10">
                             <div className="flex mx-auto rounded-full w-52 h-52 md:w-80 md:h-80 hover:scale-105 ease-in-out duration-300 overflow-hidden ">
                                 <img src={profilepicture} alt="Profile Picture" />
                             </div>
                         </div>
-                        <div className="p-5 flex justify-center md:hidden">
+                        <div className="p-7 flex justify-center md:hidden">
                             <div className="hover:scale-110 ease-in-out duration-300">
                                 <a
                                     className="font-semibold bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md"
@@ -102,7 +102,7 @@ function App() {
                         </div>
                     </section>
                     <section>
-                        <div className="lg:mx-4">
+                        <div className="lg:mx-4 mt-10">
                             <h3 className="text-3xl py-1 font-medium dark:text-gray-50">
                                 About me
                             </h3>
@@ -184,7 +184,7 @@ function App() {
                         </div>
                     </section>
                     <section>
-                        <div className="lg:mx-4">
+                        <div className="lg:mx-4 mt-16">
                             <h3 className="text-3xl py-1 font-medium dark:text-gray-50">
                                 Portfolio
                             </h3>
@@ -214,7 +214,7 @@ function App() {
                         </div>
                     </section>
                     <footer>
-                        <div className="py-5">
+                        <div className="py-5 mt-16">
                             <div className="text-center text-base py-1 font-medium dark:text-gray-50 ">
                                 Created by{' '}
                                 <span className="font-bold dark:text-teal-400">Mark Andrey</span>
