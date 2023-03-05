@@ -1,12 +1,28 @@
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from 'react-icons/ai';
 import profilepicture from '@/assets/profilepicture.webp';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+type Theme = 'light' | 'dark';
 
 function App() {
-    const [darkMode, setdarkMode] = useState(false);
+    const [theme, setTheme] = useState<Theme>(() => getTheme());
+
+    useEffect(() => {
+        localStorage.setItem('theme', theme);
+    }, [theme]);
+
+    function getTheme(): Theme {
+        const savedTheme = localStorage.getItem('theme') as Theme;
+        if (savedTheme) {
+            return savedTheme;
+        }
+
+        return 'light';
+    }
+
     return (
-        <div className={darkMode ? 'dark' : ''}>
+        <div className={theme}>
             <div className="min-h-screen min-w-min bg-slate-50 dark:bg-gray-800 transition duration-300">
                 <main className="max-w-max mx-auto bg-slate-50 px-10 md:px-20 lg:px-40 xl:px-90 dark:bg-gray-800 transition duration-300 select-none">
                     <section>
@@ -19,7 +35,9 @@ function App() {
                                     <BsFillMoonStarsFill
                                         className="cursor-pointer text-2xl dark:text-yellow-400 hover:scale-125 ease-in-out duration-300"
                                         onClick={() => {
-                                            setdarkMode((darkMode) => !darkMode);
+                                            setTheme((theme) =>
+                                                theme === 'light' ? 'dark' : 'light'
+                                            );
                                         }}
                                     />
                                 </li>
